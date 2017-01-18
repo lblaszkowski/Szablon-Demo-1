@@ -1,0 +1,99 @@
+@import url("style_zerowy.css");
+body{background-color:#fff;}
+ul.menu {list-style:none;padding:0;margin: 0;}
+ul.menu li{display:inline;}
+ul.menu li a {text-decoration:none;}
+
+/*   szkielet strony   */
+#strona {
+margin:0px auto;
+background-color:#fff;
+width:900px;
+font-family:Arial;
+}
+#baner{
+height:55px;
+}
+#baner img{
+border:0;
+float:left;
+}
+#baner #menu{
+float:right;
+}
+#baner #menu ul{
+padding-top:20px;
+}
+#baner #menu ul li a{
+font-size:14px;
+color:#8ead11;
+margin-left:40px;
+}
+#baner #menu ul li a:hover{
+color:#405103;
+}
+/* text_lewa_i_prawa_strona*/
+#text{
+overflow:hidden;
+}
+#text #lewa{
+float:left;
+}
+#text #prawa{
+float:right;
+width:500px;
+height:527px;
+background-color:#adc748;
+}
+#text #prawa p{
+color:#fff;
+text-align:justify;
+font-size:14px;
+padding:10px 20px;
+}
+#text #prawa p strong{
+color:#5e7410;
+font-style:italic;
+} 
+#text #prawa h1{
+width:100%;
+color:#e5f5aa;
+height:58px;
+background-color:#93b516;
+font-weight:normal;
+font-size:22px;
+line-height: 58px;
+padding-left:20px;
+border-bottom:1px solid #bcd56f;
+}
+#stopka{
+	font-size:12px;
+	color:#cbc7c8;
+	margin-top:2px;
+	overflow:hidden;
+	background-color:#87888a;
+	height:65px;
+}
+#stopka #menu_1{
+float:right;
+margin-right:10px;
+}
+#stopka #menu_1 ul{
+margin:7px 0 7px 0;
+}
+#stopka #menu_1 ul li a{
+padding-left:20px;
+color:#cbc7c8;
+font-weight:bold;
+}
+#stopka #menu_1 p {
+text-align:right;
+}
+#stopka #kontakt{
+float:left;
+margin:12px 0 0 10px;
+}
+#stopka #kontakt .kontakt_text{
+float:left;
+margin-right:30px;
+} 	
